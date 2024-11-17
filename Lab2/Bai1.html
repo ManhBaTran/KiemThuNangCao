@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .card {
+      border: none;
+    }
+ 
+  </style>
+</head>
+<body>
+  <div class="container mt-5 col-md-6">
+    <h1 class="fw-bold">PH53480</h1>
+    <h5 class="text-muted">Licensed Real Estate Broker</h5>
+    <!-- Header Section -->
+    <div class="row align-items-center mb-5">
+      <!-- Left: Profile Image -->
+      <div class="col-md-5 text-center">
+        <img src="data:image/jpeg;base64,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" alt="Profile Picture" class="profile-img">
+      </div>
+     <!-- Right: Information -->
+     <div class="col-md-6">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-6">
+            <a href="#" class="btn btn-outline-dark w-100 mb-2">Company.com</a>
+            <a href="tel:555-555-555" class="btn btn-outline-dark w-100 mb-2">555-555-555</a>
+            <a href="mailto:me@example.com" class="btn btn-outline-dark w-100">me@example.com</a>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-6">
+            <a href="#" class="btn btn-outline-dark w-100 mb-2">Twitter</a>
+            <a href="#" class="btn btn-outline-dark w-100 mb-2">Instagram</a>
+            <a href="#" class="btn btn-outline-dark w-100">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      
+  
+
+    <!-- About Section -->
+    <div class="card mb-5 shadow-sm">
+      <div class="card-header bg-light fw-bold">About</div>
+      <div class="card-body">
+        <p class="card-text">
+          With in-depth market knowledge and a passion for delivering exceptional service, 
+          I strive to make buying or selling a home a seamless and rewarding experience. 
+          Trustworthy, responsive, and always ready to go the extra mile, I am here to guide 
+          you towards your real estate goals. Contact me today and let's start your journey together.
+        </p>
+      </div>
+    </div>
+
+    <!-- Properties Section -->
+    <h4 class="fw-bold mb-3">Discover Our Properties</h4>
+    <div class="row g-4">
+      <!-- Property 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6tBCUag6qtlgIq_xUzsW-9EfkXlJ9hBJ_qw&s" class="card-img-top" alt="Property 1">
+          <div class="card-body">
+            <h5 class="card-title">123 Main Street</h5>
+            <span class="badge bg-success">For Sale</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhhyhDt0F0CFCuKUBvpNDi5c6y914Ho1ZBA&s" class="card-img-top" alt="Property 2">
+          <div class="card-body">
+            <h5 class="card-title">789 Oak Street</h5>
+            <span class="badge bg-success">For Sale</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3y2w9XreV4aZFJaysEK9BadMjoFEbANggNg&s" class="card-img-top" alt="Property 3">
+          <div class="card-body">
+            <h5 class="card-title">101 Pine Lane</h5>
+            <span class="badge bg-success">For Sale</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
